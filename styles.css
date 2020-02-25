@@ -107,7 +107,57 @@ header {
 .link-text{
     margin-top: 5px;
 }
-  
+
+.sign-up-form {
+    width: 350px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+
+.sign-up-form h1 {
+    color: #4c4c4c;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 24px;
+    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.sign-up-form p {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    color: #4c4c4c;
+    font-size: 14px;
+}
+.sign-up-form a {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.input-box {
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+.input-text{
+    font-weight: 400;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: left;
+    position: relative;
+    left: 6px;
+}
 
 
 
