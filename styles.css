@@ -5,6 +5,12 @@ body{
     font-family: AvenirNext,Avenir,Helvetica;
 }
 
+header {
+    border: 1px solid black;
+    width: 100%;
+    height: 80px;
+}
+
 .header {
     float: right;
     display: inline-flex;
@@ -49,3 +55,16 @@ body{
     position: relative;
     bottom: 3px;
 }
+
+.logo {
+    border: 1px solid red;
+    width: 50%;
+    margin-left: auto;
+     margin-right: auto;
+}
+
+.logo img {
+    position: relative;
+    left: 40%;
+}
+
