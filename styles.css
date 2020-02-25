@@ -60,11 +60,20 @@ header {
     border: 1px solid red;
     width: 50%;
     margin-left: auto;
-     margin-right: auto;
+    margin-right: auto;
 }
 
 .logo img {
     position: relative;
     left: 40%;
 }
+.icons{
+    border: 1px solid red;
+    width: 50%;
+    position: relative;
+    left: 341px;
+    display: inline-flex;
+    margin-top: 20px;        
+}
+
 
