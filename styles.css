@@ -67,6 +67,7 @@ header {
     position: relative;
     left: 40%;
 }
+
 .icons{
     border: 1px solid red;
     width: 50%;
@@ -75,6 +76,38 @@ header {
     display: inline-flex;
     margin-top: 20px;        
 }
+.icons-middle{ 
+    border: 1px solid #0077c5;
+    display: inline-block;        
+}
+.icons a{
+    text-decoration: none;    
+}
+.icons img{
+    padding-left: 10px;
+    padding-right: 5px;        
+}
+
+   
+.column a{
+    margin-top: 20px;    
+    color: #505050;
+}
+.row{
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    padding-left: 20px;
+    
+}
+
+.column {
+    float: left;    
+  }
+.link-text{
+    margin-top: 5px;
+}
+  
 
 
 
