@@ -60,11 +60,13 @@ header {
     border: 1px solid red;
     width: 50%;
     margin-left: auto;
-     margin-right: auto;
+    margin-right: auto;
 }
 
 .logo img {
     position: relative;
     left: 40%;
 }
+
+
 
