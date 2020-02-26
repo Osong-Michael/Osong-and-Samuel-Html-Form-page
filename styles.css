@@ -1,287 +1,286 @@
-body{
-    margin: 0;
-    padding: 0;
-    background: #eceef1;
-   font-family: AvenirNext,Avenir,Helvetica;
+body {
+  margin: 0;
+  padding: 0;
+  background: #eceef1;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 header {
-    width: 100%;
-    height: 80px;
+  width: 100%;
+  height: 80px;
 }
 
 .header {
-    float: right;
-    display: inline-flex;
+  float: right;
+  display: inline-flex;
 }
 
 .header a {
-    text-decoration:
-    none;
+  text-decoration: none;
 }
 
 .header p {
-    position: relative;
-    top: 15px;
-    font-weight: 400;
-    color: #505050;
-    font-size: 13px;
+  position: relative;
+  top: 15px;
+  font-weight: 400;
+  color: #505050;
+  font-size: 13px;
 }
 
 .header-btn {
-    margin: 20px 40px 0px 20px;
+  margin: 20px 40px 0 20px;
 }
 
 .header-btn button {
-    background: #0077c5;
-    border-radius: 4px;
-    border: 1px solid #4c4c4c;
-    padding: 0 20px;
-    color: white;
-    cursor: pointer;
-    font-size: 1em;
-    font-weight: normal;
-    padding: 8px 20px 8px 20px;
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: normal;
+  padding: 8px 20px 8px 20px;
 }
+
 .header-btn i {
-    font-size: 13px;
-    position: relative;
-    right: 3px;
+  font-size: 13px;
+  position: relative;
+  right: 3px;
 }
 
 .header-btn span {
-    font-size: 14px;
-    position: relative;
-    bottom: 3px;
+  font-size: 14px;
+  position: relative;
+  bottom: 3px;
 }
 
 .logo {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo img {
-    position: relative;
-    left: 42%;
-    cursor: pointer;
+  position: relative;
+  left: 42%;
+  cursor: pointer;
 }
 
-.icons{
-    width: 50%;
-    position: relative;
-    left: 360px;
-    display: inline-flex;
-    margin-top: 20px;        
-}
-.icons-middle{ 
-    display: inline-block;        
-}
-.icons a{
-    text-decoration: none;    
-}
-.icons img{
-    padding-left: 10px;
-    padding-right: 5px;        
+.icons {
+  width: 50%;
+  position: relative;
+  left: 360px;
+  display: inline-flex;
+  margin-top: 20px;
 }
 
-
-.column a{
-    margin-top: 20px;    
-    color: #505050;
+.icons-middle {
+  display: inline-block;
 }
 
+.icons a {
+  text-decoration: none;
+}
 
-.row{
-    margin-left: auto;
-    margin-right: auto;
-    width: 55%;
-    padding-left: 20px;
+.icons img {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.column a {
+  margin-top: 20px;
+  color: #505050;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  padding-left: 20px;
 }
 
 .column {
-    float: left;    
+  float: left;
 }
-.link-text{
-    margin-top: 5px;
+
+.link-text {
+  margin-top: 5px;
 }
 
 .sign-up-form {
-    width: 350px;
-    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
-    background: #fff;
-    margin: 8% auto 0;
-    text-align: center;
-    position: relative;
-    top: -100px;
+  width: 350px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  background: #fff;
+  margin: 8% auto 0;
+  text-align: center;
+  position: relative;
+  top: -100px;
 }
 
 .sign-up-form h1 {
-    position: relative;
-    top: 20px;
-    color: #4c4c4c;
-    font-weight: 400;
-    line-height: 1.1;
-    font-size: 24px;
-    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  position: relative;
+  top: 20px;
+  color: #4c4c4c;
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 24px;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .sign-up-form p {
-    box-sizing: border-box;
-    margin: 0;
-    padding-top: 20px;
-    outline: none;
-    color: #4c4c4c;
-    font-size: 14px;
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 20px;
+  outline: none;
+  color: #4c4c4c;
+  font-size: 14px;
 }
 
 .sign-up-form a {
-    font-size: 12px;
-    text-decoration: none;
+  font-size: 12px;
+  text-decoration: none;
 }
 
 .input-box {
-    border-radius: 4px;
-    padding: 10px;
-    margin: 10px 0;
-    width: 90%;
-    border: 1px solid #999;
-    outline: none;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 90%;
+  border: 1px solid #999;
+  outline: none;
 }
 
-.input-text{
-    font-weight: 400;
-    color: #404040;
-    font-size: 14px;
-    line-height: 25px;
-    text-align: left;
-    position: relative;
-    left: 6px;
-}
-
-#small-text {
-    padding: 5px 0;
-    font-size: 10px;
-    color: #444;
-    position: relative;
-    bottom: 13px;
-    right: 41px;
+.input-text {
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: left;
+  position: relative;
+  left: 6px;
 }
 
 .create-acc button {
-    width: 96%;
-    border-radius: 4px;
-    border: #0077c5;
-    height: 44px;
-    font-weight: 400;
-    color: #fff;
-    background-color: #0077c5;
-    margin-top: 15px;
-    margin-bottom: 50px;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
-    min-width: 100px;
-    display: inline-block;
-    line-height: 1.428571429;
-    cursor: pointer;
-    font-size: 15px;
+  width: 96%;
+  border-radius: 4px;
+  border: #0077c5;
+  height: 44px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #0077c5;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+  min-width: 100px;
+  display: inline-block;
+  line-height: 1.428571429;
+  cursor: pointer;
+  font-size: 15px;
 }
 
 .create-acc span {
-    margin-left: 7px;
+  margin-left: 7px;
 }
 
-.password-lock{
-    background-image: url(img/unlock.png);
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-position-x: 265px;
-    background-position-y: 10px;
+.password-lock {
+  background-image: url(img/unlock.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position-x: 265px;
+  background-position-y: 10px;
 }
 
-#privacy-text {
-    font-size: 12px;
-    font-weight: 400;
-    text-align: center;
-    line-height: 1.5;
-    font-style: italic;
-    color: #757575;
+.form-footer {
+  background: #eceef1;
+  margin-top: 10px;
+  width: 100%;
+  height: 60px;
 }
 
-#privacy-text a{
-    font-size: 12px;
-}
-
-.form-footer{
-    background: #eceef1;
-    margin-top: 10px;
-    width: 100%;
-    height: 60px;     
-}
-
-.form-footer p{
-    font-size: 10px;
-    color: #8d9096;
-    position: relative;
-    font-weight: 400;
+.form-footer p {
+  font-size: 10px;
+  color: #8d9096;
+  position: relative;
+  font-weight: 400;
 }
 
 .form-footer a {
-    font-size: 10px;
+  font-size: 10px;
 }
 
-.form{
-    padding: 20px;
+.form {
+  padding: 20px;
 }
 
-.footer-links{
-    width: 350px;
-    text-align: center;
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    bottom: 70px; 
+.footer-links {
+  width: 350px;
+  text-align: center;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  bottom: 70px;
 }
 
-.footer-links a{
-    color: #505050;
-    text-decoration: none;
-    font-size: 12px;
-    margin-right: 10px;
+.footer-links a {
+  color: #505050;
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 10px;
 }
 
-.copy-right{
-    width: 55%;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-    bottom: 80px;
+.copy-right {
+  width: 55%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  bottom: 80px;
 }
 
-.copy-right p{
-    color: #505050;
-    font-size: 12px;
-    text-align: center;
+.copy-right p {
+  color: #505050;
+  font-size: 12px;
+  text-align: center;
 }
 
-.privacy{
-    border: 1px solid #6B6C72;;
-    height: 40px;
-    width: 10%;
-    border-radius: 5px;
-    position: fixed;
-    bottom: 0;
-    left: 1150px;
+.privacy {
+  border: 1px solid #6b6c72;
+  height: 40px;
+  width: 10%;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 0;
+  left: 1150px;
 }
 
-.privacy-btn{
-    background-color: #6B6C72;;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    color: white;
-    font-size: 14px;
+.privacy-btn {
+  background-color: #6b6c72;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
 }
 
-   
+#small-text {
+  padding: 5px 0;
+  font-size: 10px;
+  color: #444;
+  position: relative;
+  bottom: 13px;
+  right: 41px;
+}
+
+#privacy-text {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5;
+  font-style: italic;
+  color: #757575;
+}
+
+#privacy-text a {
+  font-size: 12px;
+}
