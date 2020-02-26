@@ -66,37 +66,37 @@ header {
   cursor: pointer;
 }
 
-.icons {
-  width: 50%;
-  position: relative;
-  left: 360px;
-  display: inline-flex;
-  margin-top: 20px;
+.icons{
+    width: 50%;
+    position: relative;
+    left: 360px;
+    display: inline-flex;
+    margin-top: 20px;        
 }
 
-.icons-middle {
-  display: inline-block;
+.icons-middle{ 
+    display: inline-block;        
 }
 
-.icons a {
-  text-decoration: none;
+.icons a{
+    text-decoration: none;    
 }
 
-.icons img {
-  padding-left: 10px;
-  padding-right: 5px;
+.icons img{
+    padding-left: 10px;
+    padding-right: 5px;        
 }
 
-.column a {
-  margin-top: 20px;
-  color: #505050;
+.column a{
+    margin-top: 20px;    
+    color: #505050;
 }
 
-.row {
-  margin-left: auto;
-  margin-right: auto;
-  width: 55%;
-  padding-left: 20px;
+.row{
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    padding-left: 20px;
 }
 
 .column {
