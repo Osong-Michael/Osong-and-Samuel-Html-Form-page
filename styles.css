@@ -64,6 +64,7 @@ header {
 .logo img {
     position: relative;
     left: 42%;
+    cursor: pointer;
 }
 
 .icons{
@@ -252,5 +253,26 @@ header {
     font-size: 12px;
     text-align: center;
 }
-    
+
+.privacy{
+    border: 1px solid #6B6C72;;
+    height: 40px;
+    width: 10%;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 1150px;
+}
+
+.privacy-btn{
+    background-color: #6B6C72;;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+}
+
    
