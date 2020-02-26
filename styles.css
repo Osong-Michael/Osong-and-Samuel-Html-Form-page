@@ -4,18 +4,22 @@ body{
     background: #eceef1;
    font-family: AvenirNext,Avenir,Helvetica;
 }
+
 header {
     width: 100%;
     height: 80px;
 }
+
 .header {
     float: right;
     display: inline-flex;
 }
+
 .header a {
     text-decoration:
     none;
 }
+
 .header p {
     position: relative;
     top: 15px;
@@ -23,9 +27,11 @@ header {
     color: #505050;
     font-size: 13px;
 }
+
 .header-btn {
     margin: 20px 40px 0px 20px;
 }
+
 .header-btn button {
     background: #0077c5;
     border-radius: 4px;
@@ -42,21 +48,25 @@ header {
     position: relative;
     right: 3px;
 }
+
 .header-btn span {
     font-size: 14px;
     position: relative;
     bottom: 3px;
 }
+
 .logo {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
+
 .logo img {
     position: relative;
     left: 42%;
     cursor: pointer;
 }
+
 .icons{
     width: 50%;
     position: relative;
@@ -74,22 +84,28 @@ header {
     padding-left: 10px;
     padding-right: 5px;        
 }
+
+
 .column a{
     margin-top: 20px;    
     color: #505050;
 }
+
+
 .row{
     margin-left: auto;
     margin-right: auto;
     width: 55%;
     padding-left: 20px;
 }
+
 .column {
     float: left;    
 }
 .link-text{
     margin-top: 5px;
 }
+
 .sign-up-form {
     width: 350px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
@@ -99,6 +115,7 @@ header {
     position: relative;
     top: -100px;
 }
+
 .sign-up-form h1 {
     position: relative;
     top: 20px;
@@ -108,6 +125,7 @@ header {
     font-size: 24px;
     font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+
 .sign-up-form p {
     box-sizing: border-box;
     margin: 0;
@@ -116,10 +134,12 @@ header {
     color: #4c4c4c;
     font-size: 14px;
 }
+
 .sign-up-form a {
     font-size: 12px;
     text-decoration: none;
 }
+
 .input-box {
     border-radius: 4px;
     padding: 10px;
@@ -128,6 +148,7 @@ header {
     border: 1px solid #999;
     outline: none;
 }
+
 .input-text{
     font-weight: 400;
     color: #404040;
@@ -137,6 +158,7 @@ header {
     position: relative;
     left: 6px;
 }
+
 #small-text {
     padding: 5px 0;
     font-size: 10px;
@@ -145,6 +167,7 @@ header {
     bottom: 13px;
     right: 41px;
 }
+
 .create-acc button {
     width: 96%;
     border-radius: 4px;
@@ -162,9 +185,11 @@ header {
     cursor: pointer;
     font-size: 15px;
 }
+
 .create-acc span {
     margin-left: 7px;
 }
+
 .password-lock{
     background-image: url(img/unlock.png);
     background-repeat: no-repeat;
@@ -172,6 +197,7 @@ header {
     background-position-x: 265px;
     background-position-y: 10px;
 }
+
 #privacy-text {
     font-size: 12px;
     font-weight: 400;
@@ -180,29 +206,33 @@ header {
     font-style: italic;
     color: #757575;
 }
+
 #privacy-text a{
     font-size: 12px;
 }
+
 .form-footer{
     background: #eceef1;
     margin-top: 10px;
     width: 100%;
-    height: 60px;
-        
+    height: 60px;     
 }
+
 .form-footer p{
     font-size: 10px;
     color: #8d9096;
     position: relative;
-    /* top: 5px; */
     font-weight: 400;
 }
+
 .form-footer a {
     font-size: 10px;
 }
+
 .form{
     padding: 20px;
 }
+
 .footer-links{
     width: 350px;
     text-align: center;
@@ -211,12 +241,14 @@ header {
     margin-left: auto;
     bottom: 70px; 
 }
+
 .footer-links a{
     color: #505050;
     text-decoration: none;
     font-size: 12px;
     margin-right: 10px;
 }
+
 .copy-right{
     width: 55%;
     margin-right: auto;
@@ -224,11 +256,13 @@ header {
     position: relative;
     bottom: 80px;
 }
+
 .copy-right p{
     color: #505050;
     font-size: 12px;
     text-align: center;
 }
+
 .privacy{
     border: 1px solid #6B6C72;;
     height: 40px;
@@ -238,6 +272,7 @@ header {
     bottom: 0;
     left: 1150px;
 }
+
 .privacy-btn{
     background-color: #6B6C72;;
     height: 100%;
