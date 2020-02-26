@@ -107,19 +107,25 @@ header {
 .link-text{
     margin-top: 5px;
 }
+main{
+    border: 1px solid blue;
+}
 
 .sign-up-form {
     width: 350px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
     background: #fff;
-    padding: 20px;
+    
     margin: 8% auto 0;
     text-align: center;
     position: relative;
     top: -100px;
+    border: 1px solid black;
 }
 
 .sign-up-form h1 {
+    position: relative;
+    top: 20px;
     color: #4c4c4c;
     font-weight: 400;
     line-height: 1.1;
@@ -130,7 +136,7 @@ header {
 .sign-up-form p {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding-top: 20px;
     outline: none;
     color: #4c4c4c;
     font-size: 14px;
@@ -165,7 +171,8 @@ header {
     color: #444;
     position: relative;
     bottom: 13px;
-    right: 55px;
+    right: 41px;
+    
 }
 
 .create-acc button {
@@ -205,4 +212,48 @@ header {
     font-style: italic;
     color: #757575;
 }
-
+.form-footer{
+    background: #eceef1;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+        
+}
+.form-footer p{
+    font-size: 10px;
+    color: #8d9096;
+    position: relative;
+    top: 5px;
+    font-weight: 400;
+}
+.form{
+    padding: 20px;
+}
+.footer-links{
+    width: 350px;
+    text-align: center;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 70px; 
+}
+.footer-links a{
+    color: #505050;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.copy-right{
+    width: 55%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    bottom: 80px;
+}
+.copy-right p{
+    color: #505050;
+    font-size: 12px;
+    text-align: center;
+}
+    
+   
