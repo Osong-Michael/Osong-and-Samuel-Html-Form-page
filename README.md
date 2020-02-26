@@ -1,6 +1,5 @@
 # Cloning Mint Sign up Page
 
-> 
 
 Screenshot of Page
 
@@ -11,12 +10,7 @@ Screenshot of Page
 ## Built With
 
 - Html,
-- Css,
-
-
-## Live Demo
-
-[Live Demo Link]()
+- Css
 
 
 ## Authors
@@ -37,7 +31,7 @@ Screenshot of Page
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/OA7/Osong-and-Samuel-Html-Form-page/issues).
 
 ## Show your support
 
