@@ -43,6 +43,7 @@ header {
     font-weight: normal;
     padding: 8px 20px 8px 20px;
 }
+
 .header-btn i {
     font-size: 13px;
     position: relative;
@@ -74,23 +75,24 @@ header {
     display: inline-flex;
     margin-top: 20px;        
 }
+
 .icons-middle{ 
     display: inline-block;        
 }
+
 .icons a{
     text-decoration: none;    
 }
+
 .icons img{
     padding-left: 10px;
     padding-right: 5px;        
 }
 
-
 .column a{
     margin-top: 20px;    
     color: #505050;
 }
-
 
 .row{
     margin-left: auto;
@@ -102,6 +104,7 @@ header {
 .column {
     float: left;    
 }
+
 .link-text{
     margin-top: 5px;
 }
