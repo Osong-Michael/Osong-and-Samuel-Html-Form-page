@@ -190,5 +190,12 @@ header {
     margin-left: 7px;
 }
 
-
+#privacy-text {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5;
+    font-style: italic;
+    color: #757575;
+}
 
